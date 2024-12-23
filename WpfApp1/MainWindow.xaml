@@ -10,6 +10,10 @@
         <StackPanel>
             <Button x:Name="PreventSleepButton" Content="阻止系统睡眠" Width="120" Height="30" Click="PreventSleepButton_OnClick"/>
             <Button x:Name="AllowSleepButton" Content="允许系统睡眠" Width="120" Height="30" Click="AllowSleepButton_OnClick"/>
-        </StackPanel>
+
+            <Button x:Name="GetDetailButton" Content="获取" Width="120" Height="30" Click="GetDetailButton_OnClick"/>
+
+
+</StackPanel>
     </Grid>
 </Window>
